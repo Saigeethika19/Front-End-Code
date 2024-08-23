@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.App {
+  background-image: url('bg.jpg'); 
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  color: #f0f0f0; 
+  min-height: 100vh; 
+}
+
+.loginPage {
+  background: linear-gradient(135deg, #b0cec5c5, #d9e0ddc9);
+  color: #e6dcdc;
+}
+Label {
+  font-weight: bolder;
+  font-size: 20;
+  color: #101013f6;
+  font-style: oblique;
+}
+/* src/App.css or src/styles.css */
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 0.5em;
+  border-radius: 50%;
 }
